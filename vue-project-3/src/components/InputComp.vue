@@ -16,12 +16,8 @@
       Disabled
     </label>
 
-    <input 
-      type="text" 
-      placeholder="Введіть текст" 
-      v-bind:readonly="mode === 'readonly'" 
-      v-bind:disabled="mode === 'disabled'" 
-    />
+    <input type="text" placeholder="Введіть текст" v-bind:readonly="mode === 'readonly'"
+      v-bind:disabled="mode === 'disabled'" />
   </div>
 </template>
 
@@ -29,12 +25,8 @@
 export default {
   data() {
     return {
-      mode: 'none' 
+      mode: 'none'
     };
   }
 };
 </script>
-
-
-
-  

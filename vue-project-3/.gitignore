@@ -12,7 +12,7 @@ lerna-debug.log*
 
 # Editor directories and files
 /.vscode
-/node_modules
+/.node_modules
 .idea
 *.suo
 *.ntvs*
